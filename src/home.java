@@ -58,6 +58,11 @@ public class home extends javax.swing.JFrame {
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons8-add-book-48.png"))); // NOI18N
         jButton2.setText("New Book");
         jButton2.setPreferredSize(new java.awt.Dimension(160, 59));
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, 180, -1));
 
         jButton3.setFont(new java.awt.Font("Geometr415 Blk BT", 1, 15)); // NOI18N
@@ -110,6 +115,11 @@ public class home extends javax.swing.JFrame {
         setVisible(false);
         new login().setVisible(true);
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        new newBook().setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

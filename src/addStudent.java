@@ -125,7 +125,7 @@ public class addStudent extends javax.swing.JFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\danul\\Documents\\My Projects\\Library Management System\\images\\Cartoon tiny young programmers and coders working with computers.jpg")); // NOI18N
         jLabel3.setText("jLabel3");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, 0, 870, 550));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, 0, 780, 450));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
