@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Library Management System">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/rs2xml.zip!/" />
+      <root url="jar://$PROJECT_DIR$/jcalendar-1.3.2.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
